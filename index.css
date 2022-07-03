@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+.header input {
+  margin-left: auto;
+  font-size: 10px;
+  padding: 0 30px 0 10px;
+}
+.main {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 5px 30px;
+  border: 1px solid darkgray;
+}
+input[type="submit"] {
+  background-color: rgb(27, 24, 24);
+  border: 0;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+li {
+  border: 1px solid black;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+ul:last-child {
+  border-bottom: 1px solid black;
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 0 5px;
+  border: none;
+}
