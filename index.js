@@ -40,7 +40,6 @@ function handleSubmit(e) {
             item.appendChild(dtBtn);
             addInput.value = "";
       }
-
 }
 
 function handleUpdate(e) {
